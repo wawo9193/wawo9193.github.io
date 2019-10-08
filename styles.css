@@ -1,0 +1,24 @@
+table {
+    width: auto !important;
+}
+
+.panel-group
+{
+  /* height:25vh; */
+  height:auto;
+}
+
+.content {
+    position: relative;
+}
+  
+  #collapseExample {
+    position: absolute;
+    z-index: 1;
+}
+
+.div-centered {
+    text-align: left; 
+    margin: auto; 
+    width: 500px;
+}
