@@ -1,0 +1,12 @@
+.navbar-header {
+    display:inline-block;
+    vertical-align:right;
+    width:30%;
+    text-align:left;
+  }
+  .nav {
+    display:inline-block;
+    vertical-align:right;
+    width:65%;
+    text-align:right;
+  }

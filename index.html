@@ -1,25 +1,39 @@
 <!-- Wayne Wood -->
 <!DOCTYPE html>
 <html>
-  <head class="bg-dark">     
+  <head>     
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>About Me</title>
     <link rel=stylesheet href="styles.css">
   </head>
   <body class="bg-dark">
-    <div class="container div-centered text-white">
+    <nav class="navbar navbar-dark bg-secondary navbar-fixed-top">
+        <div class="container-fluid text-white">
+            <div class="navbar-header">
+                <a class="navbar-brand">Personal Page</a>
+            </div>
+            <ul class="nav navbar-nav list-inline">
+            <li class="active list-inline-item"><a href="./index.html" style="color:white">Home</a></li>
+            <li class="list-inline-item"><a href="https://www.github.com/wawo9193" style="color:white">Github</a></li>
+            <li class="list-inline-item"><a href="./mypage.html" style="color:white">Plain Page</a></li>
+            <li class="list-inline-item"><a href="./form.html" style="color:white">Form Example</a></li>
+            </ul>
+        </div>
+    </nav> 
+    <br>
+    <div class="container text-white">
         <!-- <div class="card w-10"> -->
             <h1>
-            Wood, Wayne 
+            Wood, Wayne <p class="text-muted small">- Software Development Methods & Tools</p>
             </h1>
-            <p class="text-muted">- Software Development Methods & Tools</p>
-            <div class="card-body">
-                <p class="card-text">
-                    <small> I chose computer science because it gives me an<br>
+            <div>
+                <p>
+                    <small> I chose computer science because it gives me an
                         unlimited opportunity to be creative and learn
                     </small>
                 </p>
@@ -77,14 +91,14 @@
             </tr>
         </table>
 
-        <br>
+        <!-- <br>
         <a type="button" class="btn btn-outline-light" 
             href="https://www.github.com/wawo9193" role="button" class="panel-group"!important>GitHub</a>
         <a type="button" class="btn btn-outline-light"
             href="./mypage.html" role="button">Plain Page</a>
         <a type="button" class="btn btn-outline-light" 
             href="./form.html" role="button">Form</a>
-        <br>
+        <br> -->
         <div>
             <button type="button" class="btn btn-info btn-lg btn-danger" data-toggle="modal" data-target="#myModal">Click me!</button>
             <div class="modal fade" id="myModal" role="dialog">
