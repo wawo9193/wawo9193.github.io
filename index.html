@@ -41,8 +41,13 @@
         <!-- </div> -->
         <br>
         <div class="row">
-            <div class="coloumn float-left col-sm-4">
+            <div class="column float-left col-sm-4">
                 <img src="mepic.png" class="img" height="550" width="300" alt="blurry photo">
+                <h6 class="text-warning">
+                    Contact:
+                </h6>
+                <p>wayne.wood@colorado.edu</p>
+                <button type="button" class="btn btn-outline-warning text-warning bg-dark" data-toggle="modal" data-target="#myModal">Info / Resume</button>
             </div>
             <div class="column float-right col-sm-6">
                 <h3 class="text-warning">My Favorite Projects</h3>
@@ -112,19 +117,23 @@
             href="./form.html" role="button">Form</a>
         <br> -->
         <div>
-            <button type="button" class="btn btn-warning btn-lg btn-danger" data-toggle="modal" data-target="#myModal">Click me!</button>
             <div class="modal fade" id="myModal" role="dialog">
-                <div class="modal-dialog">
+                <div class="modal-dialog modal-lg">
                     <div class="modal-content text-white bg-dark">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title" !important>Notification</h4>
+                            <button type="button bg-white" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title" !important> Info </h4>
                         </div>
                         <div class="modal-body">
                             <p>Hi, my name is Wayne and I'm currently looking for a summer 2020 internship,
                                I am always motivated to push myself to learn new things.
-                               Please take some time to check out my portfolio on the navbar!
+                               Please take some time to check out my portfolio on the navbar and my resume below!
                             </p>
+                            <br>
+                            <div class="media border">
+                                <object id="resume" class="w-100" data="WayneW.pdf" type="application/pdf">
+                            </div>
+                            <br>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default text-dark bg-warning" data-dismiss="modal">Close</button>
