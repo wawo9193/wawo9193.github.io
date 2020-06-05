@@ -1,5 +1,5 @@
 import React from 'react';
-import { button } from 'react-bootstrap';
+import { btn } from 'react-bootstrap';
 import './profile-card.css';
 import pic from './mepic.png' // relative path to image 
 
