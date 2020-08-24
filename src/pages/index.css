@@ -1,0 +1,46 @@
+.hideComponent {
+    display: none;
+}
+
+.contactLinks a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.contactLinks i {
+    padding: 0 0 2px 10px;
+    display: block;
+}
+
+.backgroundMain {
+    display: inline-block;
+    background-color: #222831;
+    width: 1300px;
+}
+
+.backgroundCard {
+    text-align: center;
+    width: 25%; 
+    height: 590px;
+    float: left; 
+    background-color: #30475e; 
+    padding: 5px;
+}
+
+.backgroundCard h3 {
+    display: block;
+    color: #ececec;
+    margin-bottom: -1px;
+}
+
+.backgroundCard small {
+    display: block;
+    color: #f2a365;
+}
+
+.backgroundBody {
+    margin-left: 30%;
+    background-color: #30475e;
+    min-height: 400px;
+}

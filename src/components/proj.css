@@ -1,0 +1,18 @@
+table {
+    padding: 8px;
+}
+
+td, th {
+    padding: 8px;
+}
+
+tr {
+    background-color: #30475e;
+    color: #f2a365;
+} 
+
+.rowBtn:hover {
+    color: #30475e;
+    background-color: #f2a365;
+    transition: 0.3s ease-in;
+}

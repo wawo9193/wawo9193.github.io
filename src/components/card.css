@@ -1,0 +1,100 @@
+.listBtn button {
+    display: block;
+    padding: 10px;
+    min-width: 100%;
+    color: #f2a365;
+    background-color: #30475e;
+    cursor: pointer;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #222831;
+}
+
+.listBtn button:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #222831;
+    background-color: #222831;
+    color: #f2a365;
+    opacity: 80%;
+    transition: 0.2s ease-in;
+}
+
+.iconBtn {
+    height: 10px;
+    /* margin: 0 30px 0 50px; */
+}
+
+.iconBtn i {
+    color: white;
+    border-radius: 2.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.3rem;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    margin: 0 5px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 2.6rem;
+    margin-top: 10px;
+    transition: 0.2s ease-in;
+}
+
+.facebook i {
+    background-color: #3b5998;
+}
+
+.linkedin i {
+    background-color: #0e76a8;
+}
+
+.github i {
+    background-color: #333;
+}
+
+.gitlab i {
+    background-color: #fca326;
+}
+
+.google i {
+    background-color: #ea4335;
+}
+
+.twitter i {
+    background-color: #1da1f2;
+}
+
+.medium i {
+    background-color: #000;
+}
+
+.stack-overflow i {
+    background-color: #f48024;
+}
+
+.instagram i {
+    background-color: #c13584;
+}
+
+/* Hover Transition */
+.twitter i:hover,
+.google i:hover,
+.gitlab i:hover,
+.github i:hover,
+.linkedin i:hover,
+.facebook i:hover,
+.instagram i:hover,
+.stack-overflow i:hover,
+.medium i:hover{
+    background-color: black;
+}
