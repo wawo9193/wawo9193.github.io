@@ -9,6 +9,6 @@ If you would like to run the program yourself:
 - Navigate to the top directory using `cd`
 - Run command `gatsby develop` and open http://localhost:8000 in your browser
 
-The portfolio can be found hosted at this [link]: https://wawo9193.github.io  
+The portfolio can be found hosted at this [https://wawo9193.github.io]: link
 
 Thanks for checking it out!
