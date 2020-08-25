@@ -59,6 +59,7 @@ class IndexPage extends Component {
           </div>
           <div className="backgroundBody">
             <div className={aboutComponent} >
+              <h3>About Me</h3>
               <p>Hi, my name is Wayne and I am a rising senior at CU Boulder. I have interned as a
                 Software Engineer at Panasonic and worked as a Data Structures Course Assistant at CU Boulder's Computer
                 Science Department. I am currently trying to expand my knowledge on object oriented programming,
@@ -73,10 +74,12 @@ class IndexPage extends Component {
               </p>
             </div>
             <div className={projComponent} >
+              <h3>Recent Projects</h3>
               <Proj />
             </div>
             <div className={skillComponent} >
-              <h2>Languages:</h2>
+              <h3>About Me</h3>
+              <h5>Languages:</h5>
               <ul>
                 <li>C++</li>
                 <li>Python</li>
@@ -85,7 +88,7 @@ class IndexPage extends Component {
                 <li>Scala</li>
                 <li>Java (In Progress)</li>
               </ul>
-              <h2>Frameworks:</h2>
+              <h5>Frameworks:</h5>
               <ul>
                 <li>React</li>
                 <li>Node</li>
