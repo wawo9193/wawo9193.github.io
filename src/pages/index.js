@@ -78,7 +78,7 @@ class IndexPage extends Component {
               <Proj />
             </div>
             <div className={skillComponent} >
-              <h3>About Me</h3>
+              <h3>Skills</h3>
               <h5>Languages:</h5>
               <ul>
                 <li>C++</li>
