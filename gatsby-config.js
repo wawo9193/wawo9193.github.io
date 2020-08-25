@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    pathPrefix: "",
     title: `Wayne's Portfolio Page`,
     description: `Portfolio page using Gatsby/React framework.`,
     author: `@wawo9193`,
