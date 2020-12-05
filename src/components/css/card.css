@@ -1,3 +1,23 @@
+.backgroundCard {
+    text-align: center;
+    width: 25%; 
+    height: 590px;
+    float: left; 
+    background-color: #30475e; 
+    padding: 5px;
+}
+
+.backgroundCard h3 {
+    display: block;
+    color: #ececec;
+    margin-bottom: -1px;
+}
+
+.backgroundCard small {
+    display: block;
+    color: #f2a365;
+}
+
 .listBtn button {
     display: block;
     padding: 10px;
@@ -21,7 +41,7 @@
     border-color: #222831;
     background-color: #222831;
     color: #f2a365;
-    /* opacity: 40%; */
+    opacity: 80%;
     transition: 0.2s ease-in;
 }
 

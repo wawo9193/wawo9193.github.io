@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './proj.css'
+import './css/proj.css'
 
 function rowClick (url) {
     window.open(url);
@@ -15,23 +15,30 @@ const Proj = () => (
                 <th>Description</th>
                 <th>Date</th>
             </tr>
-            <tr className="rowBtn" type="submit" onClick={() => rowClick("https://www.github.com/wawo9193/dunjin")}>
+
+            <tr className="rowBtn" onClick={() => rowClick("https://github.com/wawo9193/slacker-standup")}>
+                <td>Slacker Stand-up</td>
+                <td>Java, Bolt SDK, Redis</td>
+                <td>An automated virtual scrum stand-up app through the Slack API. It presents users with options to schedule their
+                    stand-ups, select who will be notified, and shares everyone's stand-up in a designated channel. I learned
+                    how to use OOP design principles, OAuth2 workflow, and how to create UML and architecture diagrams.</td>
+                <td>Oct. 2020-Dec. 2020</td>
+            </tr>
+            <tr className="rowBtn" onClick={() => rowClick("https://www.github.com/ur-turn/accreditor")}>
+                <td>UR Turn</td>
+                <td>Ruby, Ruby on Rails, Postgres, HTML/CSS</td>
+                <td>A K-12 education dashboard to assist school counselors, guardians, and students. This was a project
+                    that I made contributions to, such as an email notification when attendance dropped below a certain
+                    threshold. We worked in an AGILE-like manner and it allowed me to contribute code that was
+                    reviewed by a senior engineer.</td>
+                <td>Aug. 2020-May 2021</td>
+            </tr>
+            <tr className="rowBtn" onClick={() => rowClick("https://www.github.com/wawo9193/dunjin")}>
                 <td>dunjin</td>
                 <td>NodeJS, React, MySQL, HTML/CSS</td>
-                <td>Personal budget dashboard using Plaid API endpoints to retrieve connection/information. Learned about Authentication/Authorization, interacting with API endpoints, and how state and props work in the React framework.</td>
+                <td>A budget tracker side-project, where I learned about authentication/authorization, object states, and using
+                    environment variables.</td>
                 <td>May 2020-Present</td>
-            </tr>
-            <tr className="rowBtn" type="submit" onClick={() => rowClick("https://github.com/jphouminh71/csci3308_fall19")}>
-                <td>Fittrack</td>
-                <td>NodeJS, MongoDB, HTML/CSS</td>
-                <td>Fitness tracker dashboard with a profile page to help personalize the experience. Learned how to handle requests on the backend and how to interact with a database.</td>
-                <td>Sept. 2019-Dec. 2019</td>
-            </tr>
-            <tr className="rowBtn" type="submit" onClick={() => rowClick("https://www.github.com/wawo9193/ufly")}>
-                <td>Ufly</td>
-                <td>C++, Qt</td>
-                <td>Student version of Uber for private jets with rudimentary frontend to showcase knowledge of graphs. Learned more modern C++ techniques and also found a neat way to calculate distance accurately with the Haversine formula.</td>
-                <td>Feb. 2019-April 2019</td>
             </tr>
         </table> 
     </>

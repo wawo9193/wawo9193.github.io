@@ -2,7 +2,7 @@ import React from 'react'
 import { socialMedia } from '../portfolio.js'
 
 import '../../node_modules/@fortawesome/fontawesome-free/css/all.css'
-import './card.css';
+import './css/card.css';
 
 const Card = (props) => (
     <div>

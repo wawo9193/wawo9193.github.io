@@ -1,9 +1,10 @@
 table {
     padding: 8px;
+    width: 100%;
 }
 
 td, th {
-    padding: 8px;
+    background-color: #30475e;
 }
 
 tr {
@@ -12,7 +13,8 @@ tr {
 } 
 
 .rowBtn:hover {
-    color: #30475e;
+    color: #ffffff;
     background-color: #f2a365;
+    cursor: pointer;
     transition: 0.3s ease-in;
 }
