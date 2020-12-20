@@ -20,8 +20,8 @@ const Proj = () => (
                 <td>Slacker Stand-up</td>
                 <td>Java, Bolt SDK, Redis</td>
                 <td>An automated virtual scrum stand-up app through the Slack API. It presents users with options to schedule their
-                    stand-ups, select who will be notified, and shares everyone's stand-up in a designated channel. I learned
-                    how to use OOP design principles, OAuth2 workflow, and how to create UML and architecture diagrams.</td>
+                    stand-ups, select who will be notified, and shares everyone's stand-up in a designated channel. In it, I implemented
+                    OOP design features, OAuth2 workflow, and created UML and architecture diagrams.</td>
                 <td>Oct. 2020-Dec. 2020</td>
             </tr>
             <tr className="rowBtn" onClick={() => rowClick("https://www.github.com/ur-turn/accreditor")}>
@@ -35,8 +35,8 @@ const Proj = () => (
             </tr>
             <tr className="rowBtn" onClick={() => rowClick("https://www.github.com/wawo9193/dunjin")}>
                 <td>dunjin</td>
-                <td>NodeJS, React, MySQL, HTML/CSS</td>
-                <td>A budget tracker side-project, where I learned about authentication/authorization, object states, and using
+                <td>NodeJS, ReactJS, MySQL, HTML/CSS</td>
+                <td>A budget tracker side-project, where I implemented authentication/authorization, object states, and used
                     environment variables.</td>
                 <td>May 2020-Present</td>
             </tr>
